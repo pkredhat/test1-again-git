@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test1-again
+  description: A simple Node.js Express application
+  annotations:
+    github.com/project-slug: pkredhat/test1-again-git
+  tags:
+    - nodejs
+    - express
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/ptk
